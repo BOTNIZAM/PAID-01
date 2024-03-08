@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files from ANIMEFLIC and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files from ANIMEFLIX and other users can access it from special link.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
