@@ -10,8 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a • Managed By : ANIMEFLIX
-IWill Share Files Which Are Shared By ANIMEGLIX Adminstrators On Channel</b>",
+            text = f"<b>○ Creator : <a • Managed By : ANIMEFLIX IWill Share Files Which Are Shared By ANIMEGLIX Adminstrators On Channel</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
